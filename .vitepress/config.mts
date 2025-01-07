@@ -22,7 +22,6 @@ export default defineConfig({
         items: [
           { text: "指令", link: "/docs/fedora-commands" },
           { text: "NFTables", link: "/docs/nftables" },
-          { text: "httpd", link: "/docs/httpd" },
           { text: "SSL", link: "/docs/httpd-ssl" },
           { text: "NTP", link: "/docs/ntp" },
         ],
@@ -31,7 +30,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "github", link: "https://github.com/hpware/gongkesai-server-06" },
-      { icon: "web", link: "https://yhw.tw/" },
     ],
 
     footer: {
@@ -43,7 +41,7 @@ export default defineConfig({
     },
     editLink: {
       pattern:
-        "https://github.com/hpware/gongkesai-server-06-vite/edit/main/:path",
+        "https://github.com/hpware/gongkesai-server-06-vite/edit/master/:path",
     },
   },
 });
