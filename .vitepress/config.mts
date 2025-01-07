@@ -51,6 +51,16 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "需要幫助?",
+        items: [
+          { text: "Email: edu@yuanhau.com", link: "mailto:edu@yuanhau.com" },
+          {
+            text: "Discord: @hwtw",
+            link: "https://discord.com/users/918723093646684180",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
