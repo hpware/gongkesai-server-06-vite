@@ -14,6 +14,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "Laptop",
+        items: [{ text: "Customer-XX", link: "/docs/laptop" }],
+      },
+      {
         text: "Windows 主機",
         items: [{ text: "Windows 主機", link: "/docs/windows" }],
       },
