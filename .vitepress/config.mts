@@ -4,6 +4,20 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "工科賽伺服器Docs",
   description: "工科賽伺服器Docs",
+  lang: "zh-Hant",
+  head: [
+    ["meta", { name: "author", content: "吳元皓" }],
+    ["meta", { name: "author-email", content: "hw@yuanhau.com" }],
+    ["link", { ref: "icon", href: "/favicon.ico" }],
+    [
+      "script",
+      {
+        defer: "",
+        src: "https://data.yuanhau.com/script.js",
+        "data-website-id": "24112a66-9b42-4689-8926-d09cab651cff",
+      },
+    ],
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
