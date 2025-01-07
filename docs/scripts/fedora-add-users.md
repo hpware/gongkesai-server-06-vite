@@ -1,11 +1,11 @@
 # Fedora 大量創立使用者
-
+## 程式碼
 ```bash
 u=""
 
 for i in $(seq -f "%02g" 1 1 50)
 
-do 
+do
 	useradd -g {{ group }} -s /bin/bash $u$i
 	echo "{{ password }}" | passwd --stdin $u$i
 done
@@ -40,3 +40,12 @@ echo "{{ password }}" | passwd --stdin $u$i
 ```echo "{{ password }}"```：將密碼以純文字格式輸出 (變數應替換為實際密碼)。
 
 ```passwd --stdin $u$i：passwd``` 是用來變更密碼的指令，--stdin 表示透過標準輸入接收密碼，而不是互動式輸入。
+## 範例
+```bash
+u="user"
+for i in $(seq -f "%02g" 1 50); do
+    useradd -g developers -s /bin/bash $u$i
+    echo "SecurePassword123" | passwd --stdin $u$i
+done
+```
+創建 user01 到 user50，將其加入 developers 群組並設定密碼為 SecurePassword123。

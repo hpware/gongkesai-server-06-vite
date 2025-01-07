@@ -26,6 +26,31 @@ export default defineConfig({
           { text: "NTP", link: "/docs/ntp" },
         ],
       },
+      {
+        text: "腳本",
+        items: [
+          {
+            text: "Windows",
+            items: [
+              {
+                text: "大量創立使用者",
+                link: "/docs/scripts/windows-add-users",
+              },
+              { text: "", link: "/docs/nftables" },
+            ],
+          },
+          {
+            text: "Fedora",
+            items: [
+              {
+                text: "大量創立使用者",
+                link: "/docs/scripts/fedora-add-users",
+              },
+              { text: "", link: "/docs/nftables" },
+            ],
+          },
+        ],
+      },
     ],
 
     socialLinks: [
