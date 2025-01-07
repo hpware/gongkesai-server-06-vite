@@ -1,6 +1,6 @@
 # Windows 大量創立使用者
 ## 程式碼
-```powershell
+```c
 $path="CN=Users, DC=,DC="
 $domain=""
 $user="AD"
@@ -15,7 +15,7 @@ foreach($i in $count) {
 ```
 ## 解釋
 ### 變數定義
-```powershell
+```c
 $path="CN=Users,DC=example,DC=com"
 $domain="example.com"
 $user="AD"
@@ -44,7 +44,7 @@ foreach($i in $count) {
 ```$i.ToString('00')```：將數字格式化為兩位數，01 至 10。
 
 ### 建立 AD 使用者
-```powershell
+```c
 New-AdUser -Name "$user$num" -SamAccountName "$user$num" -EmailAddress "$user$num@$domain" -Path $path -Enabled $True -PasswordNeverExpires $true -ChangePasswordAtLogon $false -AccountPassword (ConvertTo-SecureString "$password" -AsPlainText -force)
 ```
 New-AdUser：用於在 Active Directory 中建立新使用者。
@@ -58,7 +58,7 @@ New-AdUser：用於在 Active Directory 中建立新使用者。
 -AccountPassword：設定使用者密碼。
 ```(ConvertTo-SecureString "$password" -AsPlainText -force)```：將密碼轉換為安全字串。
 ### 加入群組
-```powershell
+```c
 Add-ADGroupMember -Identity "$group" -Members "$user$num"
 ```
 Add-ADGroupMember：將使用者加入指定的 AD 群組。
@@ -68,7 +68,7 @@ Add-ADGroupMember：將使用者加入指定的 AD 群組。
 
 -Members "$user$num"：將新建立的使用者加入群組。
 ## 範例
-```powershell
+```c
 $path="CN=Users,DC=school,DC=local"
 $domain="school.local"
 $user="student"
