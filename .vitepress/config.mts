@@ -1,0 +1,49 @@
+import { defineConfig } from "vitepress";
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: "工科賽伺服器Docs",
+  description: "工科賽伺服器Docs",
+  lastUpdated: true,
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: "首頁", link: "/" },
+      { text: "Docs", link: "/docs/" },
+    ],
+
+    sidebar: [
+      {
+        text: "Windows 主機",
+        items: [{ text: "Windows 主機", link: "/docs/windows" }],
+      },
+      {
+        text: "Fedora 主機",
+        items: [
+          { text: "指令", link: "/docs/fedora-commands" },
+          { text: "NFTables", link: "/docs/nftables" },
+          { text: "httpd", link: "/docs/httpd" },
+          { text: "SSL", link: "/docs/httpd-ssl" },
+          { text: "NTP", link: "/docs/ntp" },
+        ],
+      },
+    ],
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/hpware/gongkesai-server-06" },
+      { icon: "web", link: "https://yhw.tw/" },
+    ],
+
+    footer: {
+      copyright: "&copy; 2025 吳元皓",
+      message: "Powered by VitePress",
+    },
+    search: {
+      provider: "local",
+    },
+    editLink: {
+      pattern:
+        "https://github.com/hpware/gongkesai-server-06-vite/edit/main/:path",
+    },
+  },
+});
