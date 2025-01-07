@@ -35,7 +35,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "&copy; 2025 吳元皓",
+      copyright: "&copy; 2025 吳元皓 | Licenced under MIT",
       message: "Powered by VitePress",
     },
     search: {
