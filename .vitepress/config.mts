@@ -55,7 +55,7 @@ export default defineConfig({
               },
               {
                 text: "SMB 大量創立使用者",
-                link: "/docs/scripts/smb-mass-delete-users",
+                link: "/docs/scripts/smb-mass-add-users",
               },
             ],
           },
