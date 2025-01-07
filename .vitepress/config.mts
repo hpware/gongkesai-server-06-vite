@@ -59,6 +59,10 @@ export default defineConfig({
             text: "Discord: @hwtw",
             link: "https://discord.com/users/918723093646684180",
           },
+          {
+            text: "GitHub 問題",
+            link: "https://github.com/hpware/gongkesai-server-06/issues",
+          },
         ],
       },
     ],
