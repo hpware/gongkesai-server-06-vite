@@ -34,9 +34,16 @@ export default defineConfig({
             items: [
               {
                 text: "大量創立使用者",
-                link: "/docs/scripts/windows-add-users",
+                link: "/docs/scripts/windows-mass-add-users",
               },
-              { text: "", link: "/docs/nftables" },
+              {
+                text: "大量刪除使用者",
+                link: "/docs/scripts/windows-mass-delete-users",
+              },
+              {
+                text: "大量刪除使用者(雙數)",
+                link: "/docs/scripts/windows-mass-delete-users-filter",
+              },
             ],
           },
           {
@@ -44,9 +51,12 @@ export default defineConfig({
             items: [
               {
                 text: "大量創立使用者",
-                link: "/docs/scripts/fedora-add-users",
+                link: "/docs/scripts/fedora-mass-add-users",
               },
-              { text: "", link: "/docs/nftables" },
+              {
+                text: "SMB 大量創立使用者",
+                link: "/docs/scripts/smb-mass-delete-users",
+              },
             ],
           },
         ],
