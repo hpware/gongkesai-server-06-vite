@@ -48,13 +48,21 @@ foreach($i in $count) {
 New-AdUser -Name "$user$num" -SamAccountName "$user$num" -EmailAddress "$user$num@$domain" -Path $path -Enabled $True -PasswordNeverExpires $true -ChangePasswordAtLogon $false -AccountPassword (ConvertTo-SecureString "$password" -AsPlainText -force)
 ```
 New-AdUser：用於在 Active Directory 中建立新使用者。
+
 -Name：使用者的全名 (顯示名稱)。
+
 -SamAccountName：使用者登入名稱 (SAM 帳戶名稱)。
+
 -EmailAddress：設定使用者的電子郵件地址。
+
 -Path：將使用者建立於指定 OU (這裡是 CN=Users)。
+
 -Enabled $True：啟用帳戶。
+
 -PasswordNeverExpires $true：設定密碼永不過期。
+
 -ChangePasswordAtLogon $false：設定使用者首次登入時不強制更改密碼。
+
 -AccountPassword：設定使用者密碼。
 ```(ConvertTo-SecureString "$password" -AsPlainText -force)```：將密碼轉換為安全字串。
 ### 加入群組
