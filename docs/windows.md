@@ -1,4 +1,10 @@
 # Windows 2019
+## 檔案
+Windows Server 2019 ISO: **還沒上傳**
+
+Virtualbox 6.1: https://yhw.tw/Pj4BC
+
+
 ## 必要
 1. 改變伺服器名 (!): 設定完 Active Directory 之後就無法更改
 2. 要有第二個磁碟區! (!): 第一個建議要 80GiB (82500MB)
@@ -17,7 +23,7 @@
 - AD 網域為 tpcu.edu (統一先這樣，可以改，例：yuanhau.com, sivs.edu)
 - AD 密碼同管理者密碼
 - 打開AD管理，創立使用者群組 (ITGroup, RDGroup, FeGroup)
-- 樓下有創立使用者的Script
+- [大量創立使用者](/docs/scripts/windows-mass-add-users)
 - AD Cert 設定時要選 Certification Authority Web Enrollment(第4個) 沒有 Policy 和第一個選項
 - AD Cert 照下
 	1. 要求要憑證授權單位和憑證授權單位網頁註冊
