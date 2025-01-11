@@ -33,22 +33,12 @@ export default defineConfig({
       },
       {
         text: "Windows 主機",
-        items: [{ text: "Windows 主機", link: "/docs/windows" }],
-      },
-      {
-        text: "Fedora 主機",
         items: [
-          { text: "指令", link: "/docs/fedora-commands" },
-          { text: "NFTables", link: "/docs/nftables" },
-          { text: "SSL", link: "/docs/httpd-ssl" },
-          { text: "NTP", link: "/docs/ntp" },
-        ],
-      },
-      {
-        text: "腳本",
-        items: [
+          { text: "Windows 教學", link: "/docs/windows" },
+          { text: "Virtualbox", link: "/docs/virtualbox-setup" },
+          { text: "IIS 網頁", link: "/docs/windows-web-index" },
           {
-            text: "Windows",
+            text: "腳本",
             items: [
               {
                 text: "大量創立使用者",
@@ -64,8 +54,25 @@ export default defineConfig({
               },
             ],
           },
+        ],
+      },
+      {
+        text: "Fedora 主機",
+        items: [
+          { text: "Fedora 教學", link: "/docs/fedora" },
+          { text: "指令", link: "/docs/fedora-commands" },
+          { text: "NFTables", link: "/docs/nftables" },
+          { text: "SSL", link: "/docs/httpd-ssl" },
+          { text: "NTP", link: "/docs/ntp" },
           {
-            text: "Fedora",
+            text: "網頁",
+            items: [
+              { text: "linux", link: "/docs/linux-index-html" },
+              { text: "old", link: "/docs/oldpage-index-html" },
+            ],
+          },
+          {
+            text: "腳本",
             items: [
               {
                 text: "大量創立使用者",
@@ -76,6 +83,10 @@ export default defineConfig({
                 link: "/docs/scripts/smb-mass-add-users",
               },
             ],
+          },
+          {
+            text: "軟體安裝",
+            items: [{ text: "Fedora 38", link: "/docs/fedora-packages/38" }],
           },
         ],
       },

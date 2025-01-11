@@ -65,9 +65,3 @@ Virtualbox 6.1: https://yhw.tw/Pj4BC
 		3. RD
 - 顯示 P 硬碟，樓下有英文教學
 - 登入自動打開IE
--
-- !!!重要: VirtualBox 一定要安裝 6.1 版
-- 安裝 VirtualBox Extension Pack
-- OpenOffice 4.1 安裝
-
-最後到Fedora 38 的 Guide 繼續完成！！
