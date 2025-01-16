@@ -34,9 +34,8 @@ export default defineConfig({
       {
         text: "Windows 主機",
         items: [
-          { text: "Windows 教學", link: "/docs/windows" },
-          { text: "Virtualbox", link: "/docs/virtualbox-setup" },
-          { text: "IIS 網頁", link: "/docs/windows-web-index" },
+          { text: "安裝 Windows Server 2019", link: "/windows/how-to-install-windows-server-2019" },
+          { text: "安裝 Active Directory", link: "/windows/how-to-install-active-directory" },
           {
             text: "腳本",
             items: [
@@ -51,6 +50,10 @@ export default defineConfig({
               {
                 text: "大量刪除使用者(雙數)",
                 link: "/docs/scripts/windows-mass-delete-users-filter",
+              },
+              {
+                text: "IIS 網頁",
+                link: "/docs/windows-web-index"
               },
             ],
           },
