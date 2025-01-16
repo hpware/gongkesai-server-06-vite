@@ -1,8 +1,10 @@
 # 如何安裝 Windows Server 2019
 
 ## 影片教學
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wjpoYd2C4A0?si=GpYmcVbxIpLE_s8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<video width="560" height="315" controls>
+  <source src="/videos/ap-2.srv-content.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 步驟
 
