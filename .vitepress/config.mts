@@ -28,8 +28,8 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Laptop",
-        items: [{ text: "Customer-XX", link: "/docs/laptop" }],
+        text: "💻 客戶筆電",
+        items: [{ text: "Customer-XX", link: "/laptop/" }],
       },
       {
         text: "Windows 主機",
