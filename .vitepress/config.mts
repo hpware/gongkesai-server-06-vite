@@ -36,6 +36,7 @@ export default defineConfig({
         items: [
           { text: "安裝 Windows Server 2019", link: "/windows/how-to-install-windows-server-2019" },
           { text: "安裝 Active Directory", link: "/windows/how-to-install-active-directory" },
+          { text: "安裝 Active Directory 憑證服務", link: "/windows/how-to-install-active-directory-certificate-services" },
           {
             text: "腳本",
             items: [
