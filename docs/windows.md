@@ -23,7 +23,7 @@ Virtualbox 6.1: https://yhw.tw/Pj4BC
 - AD 網域為 tpcu.edu (統一先這樣，可以改，例：yuanhau.com, sivs.edu)
 - AD 密碼同管理者密碼
 - 打開AD管理，創立使用者群組 (ITGroup, RDGroup, FeGroup)
-- [大量創立使用者](/docs/scripts/windows-mass-add-users)
+- 大量創立使用者
 - AD Cert 設定時要選 Certification Authority Web Enrollment(第4個) 沒有 Policy 和第一個選項
 - AD Cert 照下
 	1. 要求要憑證授權單位和憑證授權單位網頁註冊

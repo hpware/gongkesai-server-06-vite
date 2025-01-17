@@ -1,4 +1,10 @@
 # Windows 大量創立使用者
+## 影片教學
+<video width="560" height="315" controls>
+  <source src="/videos/ap-4.srv-content.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## 程式碼
 ```c
 $path="CN=Users, DC=,DC="
