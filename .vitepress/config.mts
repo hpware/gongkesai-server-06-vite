@@ -28,33 +28,33 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "💻 客戶筆電",
-        items: [{ text: "Customer-XX", link: "/laptop/" }],
+        text: "客戶筆電",
+        items: [{ text: "113", link: "/laptop/113" }],
       },
       {
         text: "Windows 主機",
         items: [
-          { text: "安裝 Windows Server 2019", link: "/windows/how-to-install-windows-server-2019" },
-          { text: "安裝 Active Directory", link: "/windows/how-to-install-active-directory" },
-          { text: "安裝 Active Directory 憑證服務", link: "/windows/how-to-install-active-directory-certificate-services" },
+          { text: "安裝 Windows Server 2019", link: "/windows/install-windows-server-2019" },
+          { text: "安裝 Active Directory", link: "/windows/install-active-directory" },
+          { text: "安裝 Active Directory 憑證服務", link: "/windows/install-active-directory-certificate-services" },
           {
             text: "腳本",
             items: [
               {
                 text: "大量創立使用者",
-                link: "/docs/scripts/windows-mass-add-users",
+                link: "/windows/scripts/mass-add-users",
               },
               {
                 text: "大量刪除使用者",
-                link: "/docs/scripts/windows-mass-delete-users",
+                link: "/windows/scripts/mass-delete-users",
               },
               {
                 text: "大量刪除使用者(雙數)",
-                link: "/docs/scripts/windows-mass-delete-users-filter",
+                link: "/windows/scripts/mass-delete-users-filter",
               },
               {
                 text: "IIS 網頁",
-                link: "/docs/windows-web-index"
+                link: "/windows/scripts/web"
               },
             ],
           },
@@ -67,7 +67,7 @@ export default defineConfig({
           { text: "指令", link: "/docs/fedora-commands" },
           { text: "NFTables", link: "/docs/nftables" },
           { text: "SSL", link: "/docs/httpd-ssl" },
-          { text: "NTP", link: "/docs/ntp" },
+          { text: "NTP", link: "/fedora/ntp" },
           {
             text: "網頁",
             items: [
@@ -80,17 +80,17 @@ export default defineConfig({
             items: [
               {
                 text: "大量創立使用者",
-                link: "/docs/scripts/fedora-mass-add-users",
+                link: "/fedora/scripts/mass-add-users",
               },
               {
                 text: "SMB 大量創立使用者",
-                link: "/docs/scripts/smb-mass-add-users",
+                link: "/fedora/scripts/smb-mass-add-users",
               },
             ],
           },
           {
             text: "軟體安裝",
-            items: [{ text: "Fedora 38", link: "/docs/fedora-packages/38" }],
+            link: "/fedora/packages/index"
           },
         ],
       },

@@ -25,11 +25,11 @@ features:
   - title: Windows 教學
     icon: 🛠️
     details: 一步一步的教安裝工科賽伺服器
-    link: /windows/how-to-install-windows-server-2019
+    link: /windows/install-windows-server-2019
   - title: VirtualBox 教學
     icon: 📦
     details: 安裝 VirtualBox 的教學，並設定 Fedor 的虛擬機
-    link: /windows/how-to-install-virtualbox
+    link: /windows/install-virtualbox
   - title: Fedora 教學
     icon: 🐧
     details: 安裝 Fedora 的教學，教你如何設定 NTP, httpd, 和 ssh
