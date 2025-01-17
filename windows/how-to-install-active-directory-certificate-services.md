@@ -8,5 +8,15 @@
 
 ## 步驟
 1. 按管理
-![](/images/click_management.png)
-2. 
+![](images/click_management.png)
+2. 按新增角色與功能
+![](images/select_ad_option.jpg)
+3. 下一步，下一步，下一步
+![](images/click_next_1.jpg)
+
+![](images/click_next_2.jpg)
+
+![](images/click_next_3.jpg)
+4. 選擇安裝 Active Directory Domain Services (網域服務)
+![](images/select_ad_cert_option.jpg)
+5. 下一步，下一步，安裝
