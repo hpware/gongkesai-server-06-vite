@@ -14,31 +14,50 @@
 **如果還沒有安裝 Active Directory Certificate 的 請先設定完 Active Directory Certificate 再來做IIS**
 
 ### 申請憑證
-1. 回到 **伺服器管理員**，點擊 **工具 (Tools)**，選擇 **IIS 管理員**。
+1. 回到 **伺服器管理員**，點擊 **工具 (Tools)**，選擇 **IIS 管理員**
 
-2. 按下左側 **伺服器名稱**，並選擇 **伺服器憑證 (Server Certificates)**。
+2. 按下左側 **伺服器名稱**，並選擇 **伺服器憑證 (Server Certificates)**
 
-3. 點擊 **建立憑證申請 (Create Certificate Request)**。
+![](images/iis_select_server_li.png)
+
+
+3. 點擊 **建立憑證申請 (Create Certificate Request)**
 
 4. 填寫憑證資訊：
     - 常用名稱： 必須是你要的網域 (ex: www.obyhw.tw)
     - 剩下的隨便填就好
 
+![](images/iis_cert_create.png)
+
 5. 點擊 **下一步** **下一步**
 
 6. 指定憑證請求的保存位置，點擊 **完成**
+
+![](images/iis_request_cert.png)
 
 7. 點開txt檔，並複製到剪貼簿上
 
 8. 打開 IE，並輸入 ```http://localhost/certsrv``` 或是 ```http://host-12.obyhw.tw```
 
+![](images/request_cert_1.png)
+
 9. 按要求憑證，並按進階憑證要求
+
+![](images/request_advanced_cert.png)
 
 10. 按用 Base-64 編碼的 CMC ... 要求，並在 Base-64-encoded certificated request 輸入欄位中複製你剛剛複製的 Base-64
 
+![](images/usebase64whatever.png)
+
 11. 憑證範本為網頁伺服器（Web），並按提交
 
+![](images/copy_from_cert_box_compelete_server.png)
+
 12. 下載憑證後打開IIS 並 按完成憑證要求
+
+![](images/download_cert.png)
+
+![]()
 
 13. 完成
 
@@ -61,11 +80,21 @@
 
         2.  149.118.1
 
+![](images/dns_sel_ip.png)
+
 3. 在正向對應區域，點 你的網域 (ex: obyhw.tw)
 
 4. 按右鍵，並按增加主機(A Record)
 
+![](images/dns_sel_a_record.png)
+
 5. 並在名稱上輸入 www (如果要 www.obyhw.tw 的話)，在IＰ位置輸入 192.168.1.254（主機）並安建立
+
+![](images/dns_sel_ip_name.png)
 
 ### 驗證
 打開 IE 並 輸入 ```https://你的網域``` (ex: ```https://www.obyhw.tw``` )
+
+解果：
+
+![](images/ie_haocom_complete.png)

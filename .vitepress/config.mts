@@ -130,4 +130,7 @@ export default defineConfig({
         "https://github.com/hpware/gongkesai-server-06-vite/edit/master/:path",
     },
   },
+  sitemap: {
+    hostname: "https://gs06.edu.yhw.tw"
+  }
 });
