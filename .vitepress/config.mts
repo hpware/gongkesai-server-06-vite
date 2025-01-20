@@ -37,7 +37,10 @@ export default defineConfig({
           { text: "安裝 Windows Server 2019", link: "/windows/install-windows-server-2019" },
           { text: "安裝 Active Directory", link: "/windows/install-active-directory" },
           { text: "安裝 Active Directory 憑證服務", link: "/windows/install-active-directory-certificate-services" },
-          { text: "安裝 DHCP 與 NAT", link: "/windows/install-dhcp-and-nat"},
+          { text: "設定 IIS 並取得憑證", link: "/windows/setup-internet-information-services"},
+          { text: "設定 NAT 與 安裝 DHCP", link: "/windows/install-dhcp-and-nat"},
+          { text: "IE 首頁更改", link: "/windows/setup-ie-home-page"},
+          { text: "安裝並設定 DFS", link: "/windows/install-dfs"},
           {
             text: "腳本",
             items: [

@@ -1,4 +1,4 @@
-# 設定 DHCP 與 NAT
+# 設定 NAT 與 安裝 DHCP
 ## 影片教學
 <video width="560" height="315" controls>
   <source src="/videos/ap-5.srv-content.mp4" type="video/mp4">
@@ -39,6 +39,8 @@
 ![](images/select_dhcp_nat_dhcp.png)
 
 9. 下一步，下一步，認可
+
+10. 
  
 --------DHCP裝完了---------
 
