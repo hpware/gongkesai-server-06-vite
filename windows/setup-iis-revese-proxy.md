@@ -97,7 +97,9 @@ Application Request Routing: https://yhw.tw/RNVcW
 
 6. 重開 IIS，並選擇你剛剛創立的網站
 
-7. 在 URL Rewrite 中，點及
+7. 在 URL Rewrite 中，點及反向 Proxy
+
+8. 打入要反向的網站，例如: ******* https://yuanhau.com
 
 ### 驗證
 打開 IE 並 輸入 ```https://你的網域``` (ex: ```https://www.obyhw.tw``` )
