@@ -41,6 +41,7 @@ export default defineConfig({
           { text: "設定 NAT 與 安裝 DHCP", link: "/windows/install-dhcp-and-nat"},
           { text: "IE 首頁更改", link: "/windows/setup-ie-home-page"},
           { text: "安裝並設定 DFS", link: "/windows/install-dfs"},
+          { text: "設定 IIS 反向代理服務", link: "/windows/setup-iis-revese-proxy"},
           {
             text: "腳本",
             items: [
