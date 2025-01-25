@@ -34,14 +34,33 @@ export default defineConfig({
       {
         text: "Windows 主機",
         items: [
-          { text: "安裝 Windows Server 2019", link: "/windows/install-windows-server-2019" },
-          { text: "安裝 Active Directory", link: "/windows/install-active-directory" },
-          { text: "安裝 Active Directory 憑證服務", link: "/windows/install-active-directory-certificate-services" },
-          { text: "設定 IIS 並取得憑證", link: "/windows/setup-internet-information-services"},
-          { text: "設定 NAT 與 安裝 DHCP", link: "/windows/install-dhcp-and-nat"},
-          { text: "IE 首頁更改", link: "/windows/setup-ie-home-page"},
-          { text: "安裝並設定 DFS", link: "/windows/install-dfs"},
-          { text: "設定 IIS 反向代理服務", link: "/windows/setup-iis-revese-proxy"},
+          {
+            text: "安裝 Windows Server 2019",
+            link: "/windows/install-windows-server-2019",
+          },
+          {
+            text: "安裝 Active Directory",
+            link: "/windows/install-active-directory",
+          },
+          {
+            text: "安裝 Active Directory 憑證服務",
+            link: "/windows/install-active-directory-certificate-services",
+          },
+          {
+            text: "設定 IIS 並取得憑證",
+            link: "/windows/setup-internet-information-services",
+          },
+          {
+            text: "設定 NAT 與 安裝 DHCP",
+            link: "/windows/install-dhcp-and-nat",
+          },
+          { text: "IE 首頁更改", link: "/windows/setup-ie-home-page" },
+          { text: "安裝並設定 DFS", link: "/windows/install-dfs" },
+          {
+            text: "設定 IIS 反向代理服務",
+            link: "/windows/setup-iis-revese-proxy",
+          },
+          { text: "安裝 VirtualBox", link: "/windows/install-virtualbox" },
           {
             text: "腳本",
             items: [
@@ -59,7 +78,7 @@ export default defineConfig({
               },
               {
                 text: "IIS 網頁",
-                link: "/windows/scripts/web"
+                link: "/windows/scripts/web",
               },
             ],
           },
@@ -95,7 +114,7 @@ export default defineConfig({
           },
           {
             text: "軟體安裝",
-            link: "/fedora/packages/index"
+            link: "/fedora/packages/index",
           },
         ],
       },
@@ -132,6 +151,6 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://gs06.edu.yhw.tw"
-  }
+    hostname: "https://gs06.edu.yhw.tw",
+  },
 });
