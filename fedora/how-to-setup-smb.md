@@ -1,4 +1,4 @@
-# 如何設定 Fedora Linux 38
+# 如何在 Fedora 38 設定 SSH
 
 ## 影片教學
 <!--
@@ -8,4 +8,6 @@
 </video>-->
 
 ## 步驟
-(你必需先完成「[如何安裝Fedora](/fedora/how-to-install-fedora-linux.md)」在繼續做)
+
+(你必需先完成「[如何設定Fedora](/fedora/how-to-setup-fedora-linux-2.md)」再繼續做)
+

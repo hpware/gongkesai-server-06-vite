@@ -9,7 +9,7 @@
 
 ## 步驟
 
-(你必需先完成「[如何設定Fedora](/fedora/how-to-setup-fedora-linux-2.md)」在繼續做)
+(你必需先完成「[如何設定Fedora](/fedora/how-to-setup-fedora-linux-2.md)」再繼續做)
 
 ### Linux 
 #### 憑證
@@ -141,7 +141,7 @@ systemctl enable httpd.service
 systemctl start httpd.service
 ``` 
 
-### Old
+### old
 #### 憑證
 
 1. 用 cd 回到 `/etc/pki/tls/certs`
