@@ -33,5 +33,5 @@ features:
   - title: Fedora 教學
     icon: 🐧
     details: 安裝 Fedora 的教學，教你如何設定 NTP, httpd, 和 ssh
-    link: /fedora/
+    link: /fedora/how-to-install-fedora-linux
 ---

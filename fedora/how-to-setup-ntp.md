@@ -1,5 +1,9 @@
 # 如何設定 Fedora Linux 38
 
+## 安裝檔
+
+Chrony: https://yhw.tw/GZ7Sr
+
 ## 影片教學
 <!--
 <video width="560" height="315" controls>
@@ -8,3 +12,44 @@
 </video>-->
 
 ## 步驟
+
+1. 關閉 ntpd
+
+```
+systemctl stop ntpd.service
+systemctl disable ntpd.service
+systemctl mask ntpd.service
+```
+
+(後面可以不加 .service)
+
+2. 安裝 Chrony
+
+```
+rpm -ivh chrony-4.3-3.fc38.x86_64.rpm --force
+```
+
+3. 啟動 Chrony
+
+```
+systemctl enable chronyd.service
+systemctl start chronyd.service
+```
+(後面可以不加 .service)
+
+4. 編輯檔案 ```/etc/chrony.conf```
+
+##### 刪除
+```conf
+pool 2.fedora.pool.ntp.org iburst
+```
+
+##### 增加
+```bash
+allow {{ ip }}/24
+rtcsync
+manual
+local stratum 10
+```
+
+5. 把自動更改使時間關掉 
