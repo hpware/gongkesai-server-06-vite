@@ -89,7 +89,8 @@ export default defineConfig({
         items: [
           { text: "安裝 Fedora 38", link: "/fedora/how-to-install-fedora-linux" },
           { text: "設定 Fedora 38", link: "/fedora/how-to-setup-fedora-linux-2"},
-          { text: "安裝 httpd", link: "/fedora/how-to-setup-httpd"},
+          { text: "安裝 SSH", link: "/fedora/how-to-setup-ssh"},
+          { text: "安裝 httpd 與設定 SSL", link: "/fedora/how-to-setup-httpd"},
           { text: "安裝 NTP", link: "/fedora/how-to-setup-ntp"},
           {
             text: "腳本",
