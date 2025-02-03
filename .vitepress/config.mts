@@ -87,17 +87,10 @@ export default defineConfig({
       {
         text: "Fedora 主機",
         items: [
-          { text: "安裝 Fedora", link: "/fedora/how-to-install-fedora-linux" },
-          { text: "設定 Fedora", link: "/fedora/how-to-setup-fedora-linux-2"},
+          { text: "安裝 Fedora 38", link: "/fedora/how-to-install-fedora-linux" },
+          { text: "設定 Fedora 38", link: "/fedora/how-to-setup-fedora-linux-2"},
           { text: "安裝 httpd", link: "/fedora/how-to-setup-httpd"},
           { text: "安裝 NTP", link: "/fedora/how-to-setup-ntp"},
-          {
-            text: "網頁",
-            items: [
-              { text: "linux", link: "/docs/linux-index-html" },
-              { text: "old", link: "/docs/oldpage-index-html" },
-            ],
-          },
           {
             text: "腳本",
             items: [
