@@ -87,11 +87,10 @@ export default defineConfig({
       {
         text: "Fedora 主機",
         items: [
-          { text: "Fedora 教學", link: "/docs/fedora" },
-          { text: "指令", link: "/docs/fedora-commands" },
-          { text: "NFTables", link: "/docs/nftables" },
-          { text: "SSL", link: "/docs/httpd-ssl" },
-          { text: "NTP", link: "/fedora/ntp" },
+          { text: "安裝 Fedora", link: "/fedora/how-to-install-fedora-linux" },
+          { text: "設定 Fedora", link: "/fedora/how-to-setup-fedora-linux-2"},
+          { text: "安裝 httpd", link: "/fedora/how-to-setup-httpd"},
+          { text: "安裝 NTP", link: "/fedora/how-to-setup-ntp"},
           {
             text: "網頁",
             items: [
