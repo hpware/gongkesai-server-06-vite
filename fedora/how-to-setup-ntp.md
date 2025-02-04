@@ -79,6 +79,10 @@ chronyc settime 2026-08-20 05:00:05
 
 ### 確認
 
-1. 在 Windows 裡安裝 NTPClock.exe
+1. 在 Windows 裡執行 NTPClock.exe
 
-2. 
+2. 按右鍵，並按設定系統時區
+
+3. 把預設網域/預設IP刪除，並增加IP，使用Fedora Linux 的 IP (192.168.1.110)
+
+4. 按下矯正時間，並會看到和Fedora一樣的時間
