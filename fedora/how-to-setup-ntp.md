@@ -15,6 +15,8 @@ Chrony: https://yhw.tw/GZ7Sr
 
 ## 步驟
 
+### 設定
+
 (你必需先完成「[如何設定Fedora](/fedora/how-to-setup-fedora-linux-2.md)」再繼續做)
 
 1. 關閉 ntpd
@@ -75,3 +77,8 @@ chronyc settime 2026-08-20 05:00:05
 ```
 設定的時間 2026 年 8 月 20 日 5 點 0 分 5 秒
 
+### 確認
+
+1. 在 Windows 裡安裝 NTPClock.exe
+
+2. 
