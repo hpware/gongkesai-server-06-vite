@@ -9,6 +9,7 @@
 **重要**: 虛擬機必須要有 **2 核心**，**4GB 的記憶體**， **60GB 的空間**
 
 ## 步驟
+(你必需先完成「[如何在 Windows Server 2019 安裝 VirtualBox](/windows/install-virtualbox.md)」再繼續做)
 
 ### 1. 配置虛擬機
 
