@@ -57,7 +57,5 @@ firewall-cmd --add-service-ssh --permanent
 
 6. 在 113 年的工科賽，有要把 ssh 公開到網路上
 
-```bash
-
-```
+要在 Windows Server 裡打開端口
 ### 確認

@@ -49,7 +49,7 @@ nano 用 ctrl+x, y Enter 退出並儲存
 
 4. 到 `http://主機名稱.網域/certsrv (例: http://host-12.hao.com/certsrv)` 或主機IP `http://192.168.1.254/certsrv`
 
-(要用 Fedora 裡內建的 Fedora，不是 Windows 的 IE，只是重複用圖而已)
+(要用 Fedora 裡內建的 Firefox，不是 Windows 的 IE，只是重複用圖而已)
 
 ![](/windows/images/request_cert_1.png)
 
