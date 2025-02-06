@@ -1,4 +1,4 @@
-# 如何在 Fedora 38 設定 HTTPd (Apache2)，並設定 https
+# 如何在 Fedora 38 設定 HTTPd (Apache2)，設定 https，與網頁。
 
 ## 影片教學
 <!--
