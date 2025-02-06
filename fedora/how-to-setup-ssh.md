@@ -34,7 +34,7 @@ Port 2424
 PermitRootLogin no
 AllowUsers Fe? Fe10
 ```
-Port 為它的端口，要用試場要求的端口 (2424)
+Port 為它的連接埠，要用試場要求的連接埠 (2424)
 
 PermitRoot Login 為 root 帳號登入，要用試場要求的設定 (基本上一定是不允許的，因為 root 是最高等級的使用者，和 Windows 的可以登入的 Administrator 差不多)
 
@@ -47,15 +47,18 @@ AllowUsers 是可以在範圍內的使用者，可以登入，?是 Wildcard，�
  systemctl restart sshd.service
  ```
 
-5. 打開 ssh 的端口
+5. 打開 ssh 的連接埠
 
-(這個步驟可以越過，因為ssh有時候預設用 Firewalld 打開端口，但這個只確認的而已)
+(這個步驟可以越過，因為ssh有時候預設用 Firewalld 打開連接埠，但這個只確認的而已)
 
 ```bash 
 firewall-cmd --add-service-ssh --permanent
 ```
 
-6. 在 113 年的工科賽，有要把 ssh 公開到網路上
-
-要在 Windows Server 裡打開端口
 ### 確認
+
+
+
+### 打開連接埠
+**在 113 年的工科賽，有要把 ssh 公開到網路上 (要在 Windows Server 裡打開連接埠)**
+

@@ -20,7 +20,7 @@ useradd {{ user }}
 ```bash
 id {{ user }}
 ```
-# 改 ssh 的端口
+# 改 ssh 的連接埠
 ```bash
 nano /etc/ssh/sshd_config
 ```
