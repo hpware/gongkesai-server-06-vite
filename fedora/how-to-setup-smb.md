@@ -47,3 +47,4 @@ nano /etc/samba/smb.conf
 
 nano 用 ctrl+x, y Enter 退出並儲存，vi(vim)則用 :wq
 
+
