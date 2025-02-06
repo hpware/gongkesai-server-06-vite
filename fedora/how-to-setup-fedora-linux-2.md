@@ -8,3 +8,4 @@
 </video>-->
 
 ## 步驟
+(你必需先完成「[如何安裝Fedora](/fedora/how-to-install-fedora-linux.md)」在繼續做)

@@ -11,4 +11,3 @@
 
 (你必需先完成「[如何設定Fedora](/fedora/how-to-setup-fedora-linux-2.md)」再繼續做)
 
-1. 

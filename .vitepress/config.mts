@@ -23,7 +23,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首頁", link: "/" },
-      { text: "Docs", link: "/docs/" },
+      { text: "如何編輯?", link: "/how-to-edit" },
     ],
 
     sidebar: [
