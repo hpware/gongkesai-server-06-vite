@@ -15,7 +15,7 @@ iptables-nft -nL
 iptables-nft -P INPUT DROP
 iptables-nft -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 ```
-### 設定開啟的端口
+### 設定開啟的連接埠
 ```bash
 iptables-nft -A INPUT -p tcp --dport 443 -j ACCEPT
 iptables-nft -A INPUT -p tcp --dport 2224 -j ACCEPT
@@ -28,7 +28,7 @@ nft list ruleset | cat >> /etc/nftables/{{ name }}.nft
 nano /etc/nftables/nftables.conf
 ```
 
-有打開 443, 2224, 137, 138, 139, 445 的端口
+有打開 443, 2224, 137, 138, 139, 445 的連接埠
 
 最後三行是創立nft檔並複製 ruleset 到新創的檔案裡，並用nano打開主要的檔案(```/etc/nftables/nftables.conf```)來包含我們新創的ruleset檔案
 ```conf
