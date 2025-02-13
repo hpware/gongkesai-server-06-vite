@@ -1,6 +1,6 @@
 # 如何在 Fedora 38 設定 SSH
 
-## 影片教學
+<!--## 影片教學
 <!--
 <video width="560" height="315" controls>
   <source src="/videos/ap-11.srv-content.mp4" type="video/mp4">
