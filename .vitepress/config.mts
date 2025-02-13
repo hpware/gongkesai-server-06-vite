@@ -24,6 +24,7 @@ export default defineConfig({
     nav: [
       { text: "首頁", link: "/" },
       { text: "如何編輯?", link: "/how-to-edit" },
+      { text: "解題", link: "https://yhw.tw/eg0e3s"}
     ],
 
     sidebar: [
