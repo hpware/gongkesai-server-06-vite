@@ -148,3 +148,5 @@ export default defineConfig({
     hostname: "https://gs06.edu.yhw.tw",
   },
 });
+
+// Made with </> code by Howard

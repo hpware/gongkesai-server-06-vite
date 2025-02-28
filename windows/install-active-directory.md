@@ -30,7 +30,7 @@
 ![](images/network_what_to_turn_on_what_to_turn_off.jpg)
 
   - LAN 設定
-    - 固定IP: 192.168.1.254
+    - 固定IP: 192.168.1.254 **(不是 192.168.1.1)**
     - 子網路: 255.255.255.0
     - 路由: 192.168.1.254
     - DNS: 127.0.0.1 (localhost)
