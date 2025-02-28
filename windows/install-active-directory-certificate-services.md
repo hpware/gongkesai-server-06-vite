@@ -23,13 +23,13 @@
 
 ![](images/click_next_3.jpg)
 
-4. 選擇安裝 Active Directory Domain Services (網域服務)
+4. 選擇安裝 Active Directory Domain Services (憑證服務)
 
 ![](images/select_ad_cert_option.jpg)
 
 5. 下一步，下一步
 
-6. 在這裡 按 **憑證網頁註冊**
+6. 在這裡 按 **憑證授權網頁註冊**
 
 ![](images/jisjdfos-3.png)
 
