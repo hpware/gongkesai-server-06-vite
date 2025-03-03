@@ -1,8 +1,8 @@
 # 如何安裝 Windows Server 2019
 
-## Download
+## 安裝檔
 
-Windows Server 2019: https://drive.massgrave.dev/zh-tw_windows_server_2019_x64_dvd_a4c80409.iso
+Windows Server 2019: https://yhw.tw/rF9RZ (via massgrave)
 
 ## 影片教學
 <video width="560" height="315" controls>
