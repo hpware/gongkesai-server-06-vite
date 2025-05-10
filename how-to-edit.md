@@ -6,6 +6,6 @@
 
 2. 做編輯
 
-3. 在 Fork 的 Repo 上 Pull Request
+3. 在 Fork 的 Repo 上 Pull Request (PR)
 
 就這樣!
