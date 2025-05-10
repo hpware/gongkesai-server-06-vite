@@ -3,6 +3,11 @@
 ## 程式碼
 
 [index.html](/windows/scripts/web.html#_113)
+
+## 檔案
+
+ShareX: [Download](https://github.com/ShareX/ShareX/releases/download/v17.0.0/ShareX-17.0.0-portable.zip)
+
 ## 影片教學
 
 <video width="560" height="315" controls>
@@ -101,6 +106,8 @@
 5. 並在名稱上輸入 www (如果要 www.obyhw.tw 的話)，在IＰ位置輸入 192.168.1.254（主機）並安建立
 
 ![](images/dns_sel_ip_name.png)
+
+6. 把上面的 HTML 放在 C:\\Web，並在同的資料夾放入 Windows 的截圖 **重要: 如果 Windows 無法儲存，請使用 ShareX 來截圖**
 
 ### 驗證
 打開 IE 並 輸入 ```https://你的網域``` (ex: ```https://www.obyhw.tw``` )
