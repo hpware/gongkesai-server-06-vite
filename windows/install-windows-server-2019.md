@@ -2,7 +2,9 @@
 
 ## 安裝檔
 
-Windows Server 2019: https://yhw.tw/rF9RZ (via massgrave)
+### Windows Server 2019
+- Massgrave dl (美國):　https://yhw.tw/rF9RZ
+- 透過 Cloudflare 到台灣伺服器下載: http://s3.yhw.tw/data/zh-tw_windows_server_2019_x64_dvd_a4c80409.iso
 
 ## 影片教學
 <video width="560" height="315" controls>
